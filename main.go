@@ -33,6 +33,12 @@ func main() {
 		},
 	}
 
-	fmt.Printf("%+v\n", jim)
+	jim.print()
+
+}
+
+func (p person) print() {
+
+	fmt.Printf("%+v\n", p)
 
 }
